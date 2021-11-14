@@ -1,0 +1,9 @@
+/build/
+/bin/
+node_modules/
+vendor/
+debug.log
+.vscode
+.DS_Store
+.log
+captain_clegg/

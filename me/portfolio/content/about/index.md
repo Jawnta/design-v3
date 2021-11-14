@@ -6,10 +6,11 @@ Description: About homepage
 
 About
 ==========================
-
+<div class="pts-img" markdown="1">
 [![Pico](assets/img/pico.png)](https://picocms.org/){.pts}
 [![Twig](assets/img/twig.jpg)](https://twig.symfony.com/){.pts}
 [![SASS](assets/img/sass.png)](https://sass-lang.com/){.pts}
+</div>
 
 Uppbyggnaden av min portfölj består av lite olika element så som pico, twig och SASS.
 </br>

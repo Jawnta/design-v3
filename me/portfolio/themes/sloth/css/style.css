@@ -384,6 +384,10 @@ pre code {
   margin-bottom: 25px;
 }
 
+.pts-img p {
+  display: flex;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -407,6 +411,10 @@ pre code {
   float: left;
   width: 30%;
   margin-bottom: 25px;
+}
+
+.pts-img p {
+  display: flex;
 }
 
 body {
