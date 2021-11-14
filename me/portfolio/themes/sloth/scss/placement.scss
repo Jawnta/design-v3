@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-alternative-color;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;    
+}
+
+
+@media (max-width: 767px) {
+    .main {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
