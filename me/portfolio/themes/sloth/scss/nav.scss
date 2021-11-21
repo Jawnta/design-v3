@@ -7,16 +7,21 @@
     flex-direction: column;
 }
 
-.nav ul {
+.nav {
+    ul {
 
-    flex-direction: column;
+        flex-direction: column;
+    }
 
     i {
         margin-right: 10px;
+        width: 15px;
     }
 
     li {
+        display: flex;
         margin-bottom: 10px;
+        align-items: center;
     }
 }
 
@@ -33,4 +38,11 @@ a {
 
 .active {
     font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .nav i {
+        margin-right: 0;
+    }
+
 }

@@ -1,0 +1,48 @@
+.tech-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 25% 1fr;
+    gap: 2em 2em;
+    grid-template-rows: 50px 50px;
+    padding: 50px;
+    
+    h1,
+
+
+    p {
+        grid-column-end: span 3;
+        margin: 0;
+        
+    }
+}
+
+.tech-box {
+    padding: 20px;
+    font-size: 25px;
+    background-color: $wrapper-bg-color;
+    color: $title-font-color;
+    box-shadow: 0 10px 13px -7px #000, 8px 4px 14px 3px rgba(0, 0, 0, 0.32);
+
+    &:hover {
+
+        font-weight: 700;
+    }
+}
+
+.tech-box-content a:hover {
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .tech-main {
+
+        grid-template-columns: 1fr;
+
+        h1,
+
+        p {
+            grid-column-end: auto;
+            
+        }
+    }
+}
