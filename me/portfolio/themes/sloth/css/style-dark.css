@@ -347,9 +347,9 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 1px solid #2e2e2e;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #000;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -357,9 +357,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #2e2e2e;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #000;
 }
 
 pre code {
@@ -395,7 +395,7 @@ pre code {
 }
 
 .footer a {
-  color: #222;
+  color: #30b91d;
 }
 
 .footer .social {
@@ -436,7 +436,7 @@ body {
   }
 }
 .title * {
-  color: #d0d0d0;
+  color: #118a00;
 }
 
 .title p {
@@ -473,14 +473,14 @@ img {
 }
 
 .text-white {
-  color: #d0d0d0;
+  color: #118a00;
 }
 
 .header {
   width: 300px;
   margin-right: 30px;
   padding: 20px;
-  background-color: #2b2b2b;
+  background-color: #000;
   display: flex;
   flex-direction: column;
 }
@@ -500,11 +500,11 @@ img {
 
 .nav a {
   text-decoration: none;
-  color: #d0d0d0;
+  color: #118a00;
 }
 .nav a:visited {
   text-decoration: none;
-  color: #d0d0d0;
+  color: #118a00;
 }
 
 .active {
@@ -538,8 +538,8 @@ img {
 .tech-box {
   padding: 20px;
   font-size: 25px;
-  background-color: #2b2b2b;
-  color: #d0d0d0;
+  background-color: #000;
+  color: #118a00;
   box-shadow: 0 10px 13px -7px #000, 8px 4px 14px 3px rgba(0, 0, 0, 0.32);
 }
 .tech-box:hover {
@@ -573,10 +573,10 @@ img {
   list-style: none;
 }
 .aside-links li a {
-  color: #000;
+  color: #118a00;
 }
 .aside-links li a:visited {
-  color: #000;
+  color: #118a00;
 }
 .aside-links li a:hover {
   font-weight: 700;
@@ -586,10 +586,10 @@ img {
   list-style: none;
 }
 .article li a {
-  color: #000;
+  color: #118a00;
 }
 .article li a:visited {
-  color: #000;
+  color: #118a00;
 }
 .article li a:hover {
   font-weight: 700;
@@ -622,11 +622,11 @@ img {
 }
 .paper-links {
   text-decoration: none;
-  color: #000;
+  color: #118a00;
 }
 
 .paper-links:visited {
-  color: #000;
+  color: #118a00;
 }
 
 * {
@@ -635,6 +635,10 @@ img {
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+
+* img {
+  opacity: 0.6;
 }
 
 ol,
@@ -647,5 +651,6 @@ ul {
 }
 
 body {
-  background-color: #fff;
+  background-color: #171717;
+  color: #30b91d;
 }

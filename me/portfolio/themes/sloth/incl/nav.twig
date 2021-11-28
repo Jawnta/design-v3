@@ -28,10 +28,13 @@
                         {%set icon = "fa-home" %}
                         {% elseif page.title=="About" %}
                         {%set icon = "fa-info-circle" %}
+                        {% elseif page.title=="Analysis" %}
+                        {%set icon = "fa-search" %}
                         {% elseif page.title=="Docs" %}
                         {%set icon = "fa-file" %}
                         {% elseif page.title=="Technologies" %}
                         {%set icon = "fa-code" %}
+
                         {% endif %}
                         <i class="fa {{ icon }}"></i>
                         <a href="{{ page.url }}">{{ page.title }}</a>

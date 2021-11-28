@@ -25,9 +25,10 @@
     }
 }
 
-a {
+.nav a {
 
     text-decoration: none;
+    color: $title-font-color;
 
     &:visited {
 
