@@ -5,6 +5,7 @@
     background-color: $wrapper-bg-color;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .nav {
@@ -41,9 +42,46 @@
     font-weight: 700;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
     .nav i {
         margin-right: 0;
     }
 
+    .nav ul {
+        flex-direction: row;
+        line-height: 10px;
+    }
+
+    .nav li {
+        align-items: center;
+        font-size: 0.8em;
+        padding: 0 0.5em !important;
+    }
+
+    .header {
+        width: 100%;
+        margin-right: 0;
+        background-color: $wrapper-bg-color;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        justify-content: center;
+
+    }
+    
+    .header img {
+        display: none;
+    }
+
+    .header h1 {
+        display: none;
+    }
+    
+    .header p {
+        display: none;
+    }
 }

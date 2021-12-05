@@ -1,6 +1,6 @@
 ---
 Title: Technologies
-Description: Documentation that came with Pico.
+Description: Different technologies
 Template: technologies
 ---
 

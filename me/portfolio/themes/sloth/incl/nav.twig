@@ -34,6 +34,8 @@
                         {%set icon = "fa-file" %}
                         {% elseif page.title=="Technologies" %}
                         {%set icon = "fa-code" %}
+                        {% elseif page.title=="Gallery" %}
+                        {%set icon = "fa-picture-o" %}
 
                         {% endif %}
                         <i class="fa {{ icon }}"></i>
